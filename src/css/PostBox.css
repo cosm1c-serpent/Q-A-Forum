@@ -1,0 +1,30 @@
+.postbox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.postbox:hover{
+    
+}
+
+.postbox-info {
+    display: flex;
+    align-items: center;
+}
+
+.postbox-info > h5 {
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.postbox-question {
+   color: rgb(0, 0, 0);  
+   
+   font-size: large;
+}

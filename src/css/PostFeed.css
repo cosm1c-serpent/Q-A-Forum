@@ -1,0 +1,64 @@
+.post-feed {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: red;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px -9px solid rgab(0, 0, 0, 0.5);
+}
+
+.post-feed-info{
+    display: flex;
+    align-items: center;
+}
+
+.post-feed-info > h5{
+    margin-left: 1px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.post-feed-info > h5:hover{
+    text-decoration: underline;
+}
+
+
+.post-feed-info > small{
+    margin-left: 10px;
+}
+
+.post-feed-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-feed-body > .post-feed-question{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.post-feed-body > .post-feed-button{
+    margin-left: auto;
+  cursor: pointer;
+  padding: 7px;
+  background-color: blue;
+  outline: none;
+  border: none;
+  color: lightgray;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 33px;
+}
+
+.post-feed-body > .post-feed-question > p:hover{
+   text-decoration: underline;
+}
+
+
+
+
+
